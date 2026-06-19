@@ -39,6 +39,20 @@ visual-insight/
 ├── AGENTS.md
 ├── CLAUDE.md
 ├── SKILL.md
+├── .codex/
+│   └── skills/
+│       └── visual-insight/
+│           └── SKILL.md
+├── .cursor/
+│   ├── skills/
+│       └── visual-insight/
+│           └── SKILL.md
+│   └── rules/
+│       └── visual-insight.mdc
+├── .claude/
+│   └── skills/
+│       └── visual-insight/
+│           └── SKILL.md
 ├── agents/
 │   └── openai.yaml
 ├── docs/
@@ -48,8 +62,48 @@ visual-insight/
 │   └── 输出模板.md
 ├── prompts/
 │   └── 视觉洞察主Prompt.md
+├── scripts/
+│   └── install.sh
 └── LICENSE
 ```
+
+## 安装到 Codex、Cursor、Claude Code
+
+一键安装到三个工具的个人 Skills 目录：
+
+```bash
+bash scripts/install.sh
+```
+
+安装后位置：
+
+```text
+~/.codex/skills/visual-insight
+~/.cursor/skills/visual-insight
+~/.claude/skills/visual-insight
+```
+
+如果当前会话没有立刻出现 `/visual-insight`，重启对应工具或新开一个会话。
+
+## 斜杠唤起
+
+安装后可尝试在对应工具里输入：
+
+```text
+/visual-insight
+```
+
+也可以自然语言唤起：
+
+```text
+使用 visual-insight skill，帮我基于这个 PRD 做视觉洞察。
+```
+
+说明：
+
+- Claude Code 的 skill 命令名来自 skill 目录名，因此 `.claude/skills/visual-insight/SKILL.md` 对应 `/visual-insight`。
+- Cursor 支持 Agent Skills，安装到 `~/.cursor/skills/visual-insight` 后可在 Agent 的 Skills 列表中使用；项目内还提供 `.cursor/rules/visual-insight.mdc` 作为规则兜底。
+- Codex 会通过 `SKILL.md` 和 `agents/openai.yaml` 识别该技能；如果 `/visual-insight` 未出现在界面中，仍可通过“使用 visual-insight skill”明确触发。
 
 ## 快速使用
 
