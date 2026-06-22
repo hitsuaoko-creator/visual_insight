@@ -87,6 +87,12 @@ bash scripts/install.sh
 
 ## 斜杠唤起
 
+Codex 列表展示名为：
+
+```text
+输入法APP-视觉洞察
+```
+
 安装后可尝试在对应工具里输入：
 
 ```text
@@ -97,6 +103,12 @@ bash scripts/install.sh
 
 ```text
 使用 visual-insight skill，帮我基于这个 PRD 做视觉洞察。
+```
+
+也可以用新的中文触发词：
+
+```text
+输入法APP-视觉洞察
 ```
 
 说明：

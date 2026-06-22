@@ -1,13 +1,13 @@
 ---
 name: visual-insight
-description: 中文 UI 视觉洞察 Skill。用于基于 PRD、需求背景、角色、交互链路截图、当前 UI、竞品 UXUI 材料、品牌规范、历史 UI 问题，产出设计前置视觉洞察、竞品视觉分析、视觉原则命中、关键路径 UI 判断、Checklist 与可执行设计建议。用户输入 /visual-insight，或提到视觉洞察、UI 视觉分析、竞品 UXUI 分析、设计前置 Checklist、视觉走查、设计评审前分析时使用。
+description: 中文 UI 视觉洞察 Skill。用于基于 PRD、需求背景、角色、交互链路截图、当前 UI、竞品 UXUI 材料、品牌规范、历史 UI 问题，产出设计前置视觉洞察、竞品视觉分析、视觉原则命中、关键路径 UI 判断、Checklist 与可执行设计建议。用户输入 /visual-insight，或提到输入法APP-视觉洞察、视觉洞察、UI 视觉分析、竞品 UXUI 分析、设计前置 Checklist、视觉走查、设计评审前分析时使用。
 ---
 
 # 视觉洞察
 
 ## 使用方式
 
-在 Cursor Agent 中输入 `/visual-insight` 或提出视觉洞察相关需求时，按本 Skill 执行。
+在 Cursor Agent 中输入 `/visual-insight`，或提到 `输入法APP-视觉洞察`、提出视觉洞察相关需求时，按本 Skill 执行。
 
 ## 必读知识库
 
